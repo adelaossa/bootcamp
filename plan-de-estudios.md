@@ -32,12 +32,24 @@
   - Módulos (import/export)
 - Node.js runtime, npm, package.json, nvm
 
-✅ **Mini-proyecto 1**: Calculadora CLI con Node + Gitflow en parejas (branches, PRs, merge)
+### Backend basico
+
+- Express: rutas, req/res, `express.json()`, `express.static()`, CORS
+- CRUD con array en memoria (sin base de datos)
+
+### Frontend basico
+
+- HTML, CSS y JavaScript vanilla
+- Consumir API con `fetch` desde el navegador
+- Manipulacion del DOM
+
+✅ **Mini-proyecto 1**: CRUD de Tareas con Express + HTML vanilla (datos en memoria, Gitflow en parejas)
 
 | Recurso | Enlace |
 |---|---|
 | Learn Git Branching | https://learngitbranching.js.org |
 | MDN JavaScript Guide | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide |
+| Express Docs | https://expressjs.com |
 
 ---
 
