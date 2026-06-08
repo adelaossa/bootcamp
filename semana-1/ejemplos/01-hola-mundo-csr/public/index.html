@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola Mundo — Muro de Mensajes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Muro de Mensajes</h1>
+
+  <form id="form-mensaje">
+    <input
+      type="text"
+      id="input-autor"
+      placeholder="Tu nombre (opcional)"
+    >
+    <input
+      type="text"
+      id="input-texto"
+      placeholder="Escribe un mensaje..."
+      required
+    >
+    <button type="submit">Enviar</button>
+  </form>
+
+  <h2>Mensajes (<span id="contador">0</span>)</h2>
+  <ul id="lista-mensajes"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nueva Tarea</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Nueva Tarea</h1>
+
+  <% if (error) { %>
+    <p class="error"><%= error %></p>
+  <% } %>
+
+  <form action="/tareas" method="POST" class="form-crear">
+    <input
+      type="text"
+      name="titulo"
+      placeholder="Titulo de la tarea"
+      required
+      autofocus
+    >
+    <button type="submit" class="btn-crear">Crear tarea</button>
+  </form>
+
+  <a href="/" class="volver">← Volver a la lista</a>
+</body>
+</html>

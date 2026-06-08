@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Tareas</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Mis Tareas</h1>
+
+  <a href="/tareas/nueva" class="btn-nueva">+ Nueva tarea</a>
+
+  <ul class="lista-tareas">
+    <% if (tareas.length === 0) { %>
+      <li class="vacia">No hay tareas pendientes. Crea la primera!</li>
+    <% } %>
+
+    <% tareas.forEach(tarea => { %>
+      <li class="tarea <%= tarea.completada ? 'completada' : '' %>">
+        <span class="titulo"><%= tarea.titulo %></span>
+
+        <div class="acciones">
+          <form action="/tareas/<%= tarea.id %>/completar" method="POST">
+            <button type="submit" class="btn-completar">
+              <%= tarea.completada ? 'Desmarcar' : 'Completar' %>
+            </button>
+          </form>
+
+          <form action="/tareas/<%= tarea.id %>/eliminar" method="POST">
+            <button type="submit" class="btn-eliminar">Eliminar</button>
+          </form>
+        </div>
+      </li>
+    <% }) %>
+  </ul>
+
+  <p class="total"><%= tareas.length %> tarea(s) en total</p>
+</body>
+</html>

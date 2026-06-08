@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+/* ─── Boton nueva tarea ─── */
+
+.btn-nueva {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-nueva:hover {
+  background: #2980b9;
+}
+
+/* ─── Lista de tareas ─── */
+
+.lista-tareas {
+  list-style: none;
+  padding: 0;
+}
+
+.tarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 14px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.tarea.completada .titulo {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.titulo {
+  font-size: 16px;
+  color: #333;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.acciones button {
+  padding: 6px 14px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-completar {
+  background: #2ecc71;
+  color: white;
+}
+
+.btn-completar:hover {
+  background: #27ae60;
+}
+
+.btn-eliminar {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-eliminar:hover {
+  background: #c0392b;
+}
+
+.vacia {
+  text-align: center;
+  color: #aaa;
+  font-style: italic;
+  padding: 20px;
+}
+
+.total {
+  color: #888;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+/* ─── Formulario de creacion ─── */
+
+.form-crear {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.form-crear input {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.btn-crear {
+  padding: 10px;
+  background: #27ae60;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-crear:hover {
+  background: #219a52;
+}
+
+.error {
+  background: #fce4e4;
+  color: #c0392b;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #f5c6cb;
+  margin-bottom: 16px;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 16px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.volver:hover {
+  text-decoration: underline;
+}
