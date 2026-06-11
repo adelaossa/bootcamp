@@ -59,8 +59,7 @@
 
 - Tipos básicos, interfaces vs types, enums, union/intersection types
 - Genéricos, utility types
-- tsconfig.json
-- Migrar el mini-proyecto 1 de JS a TS
+- tsconfig.json, strict mode, estructura de proyecto TS
 
 ### PostgreSQL
 
@@ -71,12 +70,19 @@
 - Subconsultas y CTEs básicos
 - Diseño de esquemas, normalización (1FN, 2FN, 3FN)
 
-✅ **Mini-proyecto 2**: Diseñar e implementar la BD de un sistema (e-commerce, blog, biblioteca)
+### TypeScript + PostgreSQL
+
+- Libreria `pg` (node-postgres) para ejecutar SQL crudo
+- Parametros (`$1`, `$2`) para prevenir SQL injection
+- Variables de entorno con dotenv
+
+✅ **Mini-proyecto 2**: CLI CRUD en TypeScript conectado a PostgreSQL (sin frameworks, SQL crudo)
 
 | Recurso | Enlace |
 |---|---|
 | TypeScript Handbook | https://www.typescriptlang.org/docs/handbook |
 | PostgreSQL Tutorial | https://www.postgresqltutorial.com |
+| node-postgres (pg) | https://node-postgres.com |
 
 ---
 
