@@ -39,6 +39,13 @@ Al finalizar esta semana los estudiantes podran:
 | node-postgres (pg) | https://node-postgres.com |
 | DB Diagram (diseño visual) | https://dbdiagram.io |
 
+## Ejemplos
+
+| # | Proyecto | Descripcion |
+|---|---|---|
+| 1 | `cli-crud-ts/` | CLI en TypeScript: CRUD de productos + categorias con PostgreSQL |
+| 2 | `muro-mensajes-pg/` | Muro de mensajes con Express + PostgreSQL (mismo frontend que semana 1) |
+
 ## Comandos clave de la semana
 
 ```bash

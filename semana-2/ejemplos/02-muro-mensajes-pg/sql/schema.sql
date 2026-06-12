@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS mensajes (
+  id      SERIAL PRIMARY KEY,
+  texto   TEXT NOT NULL,
+  autor   VARCHAR(100) NOT NULL DEFAULT 'Anonimo',
+  fecha   TIMESTAMP DEFAULT NOW()
+);
