@@ -23,10 +23,14 @@ npm install
 # 2. Levantar PostgreSQL con Docker
 docker compose up -d
 
-# 3. Iniciar el servidor (la primera vez crea tablas y datos)
-node server.js
+# 3. Iniciar el servidor en modo desarrollo
+npm run dev
 
 # 4. Abrir http://localhost:3000
+
+# Opcional: compilar y ejecutar en produccion
+npm run build
+npm start
 ```
 
 > La primera vez que arranca, el servidor detecta que la tabla `mensajes` no existe y la crea junto con datos de ejemplo. Los datos persisten en un volumen aunque detengas el contenedor. Para reiniciar desde cero: `docker compose down -v`.
@@ -45,15 +49,20 @@ node server.js
 ## Estructura
 
 ```
-├── server.js              ← Express + pg + auto-init
+├── src/
+│   ├── server.ts            ← Express + rutas
+│   ├── db.ts                 ← conexion PostgreSQL
+│   ├── init.ts               ← auto-inicializacion de tablas
+│   └── tipos.ts              ← interfaces TypeScript
 ├── public/
-│   ├── index.html         ← formulario + lista
-│   ├── style.css          ← estilos
-│   └── app.js             ← fetch + DOM
+│   ├── index.html            ← formulario + lista
+│   ├── style.css             ← estilos
+│   └── app.js                ← fetch + DOM (JS vanilla)
 ├── sql/
-│   ├── schema.sql         ← CREATE TABLE mensajes
-│   └── seed.sql           ← datos de ejemplo
-├── docker-compose.yml     ← PostgreSQL
+│   ├── schema.sql            ← CREATE TABLE mensajes
+│   └── seed.sql              ← datos de ejemplo
+├── docker-compose.yml        ← PostgreSQL
+├── tsconfig.json
 ├── package.json
 └── .gitignore
 ```
