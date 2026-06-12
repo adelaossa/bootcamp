@@ -57,6 +57,8 @@
 
 ### TypeScript
 
+- Lenguajes compilados (binario, bytecode), transpilados e interpretados
+- TypeScript como transpilado + type checker: los tipos se borran al compilar
 - Tipos básicos, interfaces vs types, enums, union/intersection types
 - Genéricos, utility types
 - tsconfig.json, strict mode, estructura de proyecto TS

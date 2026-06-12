@@ -4,6 +4,8 @@
 
 Al finalizar esta semana los estudiantes podran:
 
+- Entender la diferencia entre lenguajes compilados, transpilados e interpretados
+- Explicar que es TypeScript, como funciona y por que se usa
 - Escribir codigo TypeScript con tipos, interfaces, generics y enums
 - Configurar un proyecto TypeScript desde cero (tsconfig.json, strict mode)
 - Entender la evolucion de la persistencia: de archivos planos a sistemas de BD
@@ -16,16 +18,17 @@ Al finalizar esta semana los estudiantes podran:
 
 | # | Tema | Archivo |
 |---|---|---|
-| 1 | TypeScript a fondo | [01-typescript-a-fondo.md](temas/01-typescript-a-fondo.md) |
-| 2 | Configuracion de TypeScript | [02-tsconfig.md](temas/02-tsconfig.md) |
-| 3 | Evolucion de la persistencia de datos | [03-evolucion-persistencia.md](temas/03-evolucion-persistencia.md) |
-| 4 | PostgreSQL: instalacion y primeros pasos | [04-postgresql-intro.md](temas/04-postgresql-intro.md) |
-| 5 | SQL: DDL | [05-sql-ddl.md](temas/05-sql-ddl.md) |
-| 6 | SQL: DML y consultas basicas | [06-sql-dml.md](temas/06-sql-dml.md) |
-| 7 | SQL: JOINs, GROUP BY y subconsultas | [07-sql-avanzado.md](temas/07-sql-avanzado.md) |
-| 8 | Diseño de bases de datos | [08-diseno-bd.md](temas/08-diseno-bd.md) |
-| 9 | TypeScript + PostgreSQL con `pg` | [09-ts-pg.md](temas/09-ts-pg.md) |
-| 10 | Mini-proyecto: CLI CRUD con PostgreSQL | [10-mini-proyecto-ts-pg.md](temas/10-mini-proyecto-ts-pg.md) |
+| 1 | ?Que es TypeScript? Compilado vs transpilado | [01-que-es-typescript.md](temas/01-que-es-typescript.md) |
+| 2 | TypeScript a fondo: tipos, interfaces, generics | [02-typescript-a-fondo.md](temas/02-typescript-a-fondo.md) |
+| 3 | Configuracion de TypeScript (tsconfig.json) | [03-tsconfig.md](temas/03-tsconfig.md) |
+| 4 | Evolucion de la persistencia de datos | [04-evolucion-persistencia.md](temas/04-evolucion-persistencia.md) |
+| 5 | PostgreSQL: instalacion y primeros pasos | [05-postgresql-intro.md](temas/05-postgresql-intro.md) |
+| 6 | SQL: DDL | [06-sql-ddl.md](temas/06-sql-ddl.md) |
+| 7 | SQL: DML y consultas basicas | [07-sql-dml.md](temas/07-sql-dml.md) |
+| 8 | SQL: JOINs, GROUP BY y subconsultas | [08-sql-avanzado.md](temas/08-sql-avanzado.md) |
+| 9 | Diseño de bases de datos | [09-diseno-bd.md](temas/09-diseno-bd.md) |
+| 10 | TypeScript + PostgreSQL con `pg` | [10-ts-pg.md](temas/10-ts-pg.md) |
+| 11 | Mini-proyecto: CLI CRUD con PostgreSQL | [11-mini-proyecto-ts-pg.md](temas/11-mini-proyecto-ts-pg.md) |
 
 ## Recursos complementarios
 
