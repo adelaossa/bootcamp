@@ -6,6 +6,7 @@ Al finalizar esta semana los estudiantes podran:
 
 - Escribir codigo TypeScript con tipos, interfaces, generics y enums
 - Configurar un proyecto TypeScript desde cero (tsconfig.json, strict mode)
+- Entender la evolucion de la persistencia: de archivos planos a sistemas de BD
 - Instalar PostgreSQL, crear bases de datos y tablas via SQL
 - Escribir consultas SQL: SELECT, JOINs, GROUP BY, subconsultas
 - Diseñar un esquema de base de datos normalizado
@@ -17,13 +18,14 @@ Al finalizar esta semana los estudiantes podran:
 |---|---|---|
 | 1 | TypeScript a fondo | [01-typescript-a-fondo.md](temas/01-typescript-a-fondo.md) |
 | 2 | Configuracion de TypeScript | [02-tsconfig.md](temas/02-tsconfig.md) |
-| 3 | PostgreSQL: instalacion y primeros pasos | [03-postgresql-intro.md](temas/03-postgresql-intro.md) |
-| 4 | SQL: DDL | [04-sql-ddl.md](temas/04-sql-ddl.md) |
-| 5 | SQL: DML y consultas basicas | [05-sql-dml.md](temas/05-sql-dml.md) |
-| 6 | SQL: JOINs, GROUP BY y subconsultas | [06-sql-avanzado.md](temas/06-sql-avanzado.md) |
-| 7 | Diseño de bases de datos | [07-diseno-bd.md](temas/07-diseno-bd.md) |
-| 8 | TypeScript + PostgreSQL con `pg` | [08-ts-pg.md](temas/08-ts-pg.md) |
-| 9 | Mini-proyecto: CLI CRUD con PostgreSQL | [09-mini-proyecto-ts-pg.md](temas/09-mini-proyecto-ts-pg.md) |
+| 3 | Evolucion de la persistencia de datos | [03-evolucion-persistencia.md](temas/03-evolucion-persistencia.md) |
+| 4 | PostgreSQL: instalacion y primeros pasos | [04-postgresql-intro.md](temas/04-postgresql-intro.md) |
+| 5 | SQL: DDL | [05-sql-ddl.md](temas/05-sql-ddl.md) |
+| 6 | SQL: DML y consultas basicas | [06-sql-dml.md](temas/06-sql-dml.md) |
+| 7 | SQL: JOINs, GROUP BY y subconsultas | [07-sql-avanzado.md](temas/07-sql-avanzado.md) |
+| 8 | Diseño de bases de datos | [08-diseno-bd.md](temas/08-diseno-bd.md) |
+| 9 | TypeScript + PostgreSQL con `pg` | [09-ts-pg.md](temas/09-ts-pg.md) |
+| 10 | Mini-proyecto: CLI CRUD con PostgreSQL | [10-mini-proyecto-ts-pg.md](temas/10-mini-proyecto-ts-pg.md) |
 
 ## Recursos complementarios
 

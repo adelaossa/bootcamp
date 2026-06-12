@@ -61,6 +61,13 @@
 - Genéricos, utility types
 - tsconfig.json, strict mode, estructura de proyecto TS
 
+### Evolucion de la persistencia de datos
+
+- Archivos planos vs bases de datos
+- Modelo cliente-servidor
+- Caracteristicas de las BD: persistencia, concurrencia, integridad, ACID
+- Tipos de BD: relacionales vs NoSQL
+
 ### PostgreSQL
 
 - Instalación, pgAdmin / DBeaver / psql
