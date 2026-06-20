@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: bootcamp-db-ejercicios
+    environment:
+      POSTGRES_USER: estudiante
+      POSTGRES_PASSWORD: pass123
+      POSTGRES_DB: tienda
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata-ejercicios:/var/lib/postgresql/data
+      - ./tienda-schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./tienda-seed.sql:/docker-entrypoint-initdb.d/02-seed.sql
+
+volumes:
+  pgdata-ejercicios:

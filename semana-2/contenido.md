@@ -46,6 +46,18 @@ Al finalizar esta semana los estudiantes podran:
 | 1 | `cli-crud-ts/` | CLI en TypeScript: CRUD de productos + categorias con PostgreSQL |
 | 2 | `muro-mensajes-pg/` | Muro de mensajes con Express + PostgreSQL (mismo frontend que semana 1) |
 
+## Ejercicios SQL
+
+La carpeta `ejercicios/` contiene una base de datos de practica con ~800 registros y 20 ejercicios progresivos de SQL:
+
+| Archivo | Descripcion |
+|---|---|
+| `tienda-schema.sql` | DDL: 5 tablas (categorias, productos, clientes, ordenes, detalle_orden) |
+| `tienda-seed.sql` | ~800 registros de datos realistas de un e-commerce |
+| `tienda-reset.sql` | DROP + recreate (por si necesitan reiniciar) |
+| `ejercicios-sql.md` | 20 ejercicios progresivos (SELECT → JOINs → subconsultas → CTEs) |
+| `ejercicios-sql-respuestas.md` | Soluciones explicadas |
+
 ## Comandos clave de la semana
 
 ```bash
