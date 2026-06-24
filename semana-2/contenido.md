@@ -28,7 +28,7 @@ Al finalizar esta semana los estudiantes podran:
 | 8 | SQL: JOINs, GROUP BY y subconsultas | [08-sql-avanzado.md](temas/08-sql-avanzado.md) |
 | 9 | Diseño de bases de datos | [09-diseno-bd.md](temas/09-diseno-bd.md) |
 | 10 | TypeScript + PostgreSQL con `pg` | [10-ts-pg.md](temas/10-ts-pg.md) |
-| 11 | Mini-proyecto: CLI CRUD con PostgreSQL | [11-mini-proyecto-ts-pg.md](temas/11-mini-proyecto-ts-pg.md) |
+| 11 | Mini-proyecto: Diseno BD + Consultas + API | [11-mini-proyecto-ts-pg.md](temas/11-mini-proyecto-ts-pg.md) |
 
 ## Recursos complementarios
 

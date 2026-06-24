@@ -83,9 +83,9 @@
 
 - Libreria `pg` (node-postgres) para ejecutar SQL crudo
 - Parametros (`$1`, `$2`) para prevenir SQL injection
-- Variables de entorno con dotenv
+- API REST basica con Express + TypeScript conectada a PostgreSQL
 
-✅ **Mini-proyecto 2**: CLI CRUD en TypeScript conectado a PostgreSQL (sin frameworks, SQL crudo)
+✅ **Mini-proyecto 2**: Diseno de BD + 10 consultas SQL + API REST con TypeScript/Express/pg (3 dominios a elegir: biblioteca, clinica, universidad)
 
 | Recurso | Enlace |
 |---|---|
