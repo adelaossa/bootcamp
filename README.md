@@ -47,7 +47,7 @@ bootcamp/
 |---|---|
 | [1](semana-1/contenido.md) | Git, la Web, JavaScript, Express, HTML, CSR/SSR |
 | [2](semana-2/contenido.md) | TypeScript + PostgreSQL + pg (SQL crudo) |
-| 3 | NestJS: fundamentos y CRUD con TypeORM |
+| [3](semana-3/contenido.md) | NestJS: modulos, TypeORM, Swagger, API REST |
 | 4 | NestJS: autenticacion JWT, roles, Swagger |
 | 5 | React: componentes, hooks, router, consumo de APIs |
 | 6 | Angular: componentes, servicios, formularios reactivos |

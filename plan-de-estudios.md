@@ -97,27 +97,34 @@
 
 ## Semana 3 — Backend NestJS: Fundamentos
 
+### Conceptos fundamentales
+
+- Que es un framework: libreria vs framework, inversion de control, problemas que resuelve
+- Arquitectura en capas: frontend, API, persistencia, infraestructura
+- Que es un ORM: TypeORM, mapeo objeto-relacional, ventajas y desventajas
+
 ### NestJS Core
 
-- Estructura del proyecto: módulos, controladores, providers (servicios)
+- Filosofia modular (inspirada en Angular), TypeScript-first
+- Estructura del proyecto: modulos, controladores, providers (servicios)
 - Decoradores: `@Module`, `@Controller`, `@Get`, `@Post`, `@Put`, `@Delete`
-- Inyección de dependencias
-- Pipes: transformación y validación
+- Inyeccion de dependencias
+- Pipes: transformacion y validacion con class-validator + DTOs
 
 ### TypeORM + PostgreSQL
 
 - Entities y decoradores (`@Entity`, `@Column`, `@PrimaryGeneratedColumn`)
-- Repositorios y patrones de consulta
-- Migraciones
+- Repositorios y metodos CRUD (find, findOne, save, remove)
 - Relaciones: OneToMany, ManyToOne
+- `synchronize: true` (sin migraciones aun)
 
-### Buenas prácticas
+### Buenas practicas
 
 - DTOs con class-validator
-- Filtros de excepción globales
-- Estructura modular del proyecto
+- Filtros de excepcion globales
+- Documentacion con Swagger/OpenAPI
 
-✅ **Mini-proyecto 3**: API REST CRUD (ej: catálogo de productos, lista de tareas) con PostgreSQL
+✅ **Mini-proyecto 3**: API REST con NestJS + TypeORM + PostgreSQL + Swagger (productos + categorias)
 
 | Recurso | Enlace |
 |---|---|
