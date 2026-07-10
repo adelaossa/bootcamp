@@ -133,66 +133,47 @@
 
 ---
 
-## Semana 4 — Backend NestJS: Autenticación y Avanzado
+## Semana 4 — React desde cero
 
-### Autenticación y Autorización
+### Fundamentos de React
 
-- JWT (JSON Web Tokens): estructura, firma, refresh tokens
-- Passport.js integrado con NestJS
-- Guards y decoradores personalizados
-- Roles y RBAC (Role-Based Access Control)
+- Que es React y por que existe: imperativo vs declarativo, virtual DOM
+- Vite + TypeScript + TailwindCSS: creacion del proyecto, estructura, herramientas
 
-### Avanzado
+### React Core
 
-- Relaciones ManyToMany
-- Paginación, filtros, ordenamiento
-- Swagger/OpenAPI para documentar la API
-- Tests unitarios con Jest y @nestjs/testing
+- Componentes funcionales, props tipadas, composicion, children
+- JSX: expresiones, renderizado condicional, diferencias con HTML
+- useState: estado local, inmutabilidad, lifting state up
+- useEffect: efectos secundarios, fetch de datos, ciclo de vida, cleanup
+- Eventos y formularios controlados con validacion
+- Listas y keys: `.map()`, keys estables, filtrado y ordenamiento
 
-✅ **Mini-proyecto 4**: API con auth (login/register), roles (admin/user), documentación Swagger
+### Navegacion
 
-| Recurso | Enlace |
-|---|---|
-| JWT.io | https://jwt.io |
-| NestJS Authentication | https://docs.nestjs.com/security/authentication |
+- React Router: BrowserRouter, Routes, Route, Link, NavLink, useParams, useNavigate
+- SPA: navegacion sin recarga de pagina, ruta 404
 
----
-
-## Semana 5 — Frontend React
-
-### Fundamentos
-
-- JSX, componentes funcionales, props, children
-- Hooks esenciales: `useState`, `useEffect`, `useContext`, `useRef`
-- Custom hooks
-- React Router: `BrowserRouter`, `Routes`, `Route`, `useNavigate`, `useParams`
-- Consumo de APIs: fetch / axios con `useEffect`
-- Manejo de formularios: controlados vs uncontrolled
-- Manejo de estado global con Context API o Zustand
-
-### Estilos
-
-- TailwindCSS o CSS Modules
-- Layouts responsivos básicos
-
-✅ **Mini-proyecto 5**: App React que consuma la API de la semana 4 (login, CRUD protegido por roles)
+✅ **Mini-proyecto 4**: Frontend React que consume la API NestJS de la semana 3 (CRUD de productos + categorias, 3 paginas con Router)
 
 | Recurso | Enlace |
 |---|---|
-| React Docs (beta) | https://react.dev |
-| React Router | https://reactrouter.com |
+| React Docs | https://react.dev |
+| Vite Docs | https://vitejs.dev |
+| TailwindCSS Docs | https://tailwindcss.com |
+| React Router Docs | https://reactrouter.com |
 
 ---
 
-## Semana 6 — Frontend Angular
+## Semana 5 — Frontend Angular
 
 ### Fundamentos
 
-- TypeScript en Angular: configuración y tipado estricto
+- TypeScript en Angular: configuracion y tipado estricto
 - Componentes standalone: `@Component`, templates, estilos
-- Data binding: interpolación, property binding, event binding, two-way
+- Data binding: interpolacion, property binding, event binding, two-way
 - Directivas estructurales: `*ngIf`, `*ngFor`, `@if`, `@for` (control flow)
-- Servicios e inyección de dependencias
+- Servicios e inyeccion de dependencias
 - Angular Router: `RouterModule`, `routerLink`, `ActivatedRoute`
 - HttpClient: consumo de APIs REST
 
@@ -201,7 +182,7 @@
 - Formularios reactivos: `FormGroup`, `FormControl`, validators
 - Formularios template-driven (overview)
 
-✅ **Mini-proyecto 6**: Misma app de la semana 5, ahora en Angular
+✅ **Mini-proyecto 5**: Misma app de la semana 4, ahora en Angular
 
 | Recurso | Enlace |
 |---|---|
@@ -210,7 +191,30 @@
 
 ---
 
-## Semana 7 — Arquitectura Full-Stack e Integración
+## Semana 6 — Autenticacion y Autorizacion en NestJS
+
+### Autenticacion
+
+- JWT (JSON Web Tokens): estructura, firma, refresh tokens
+- Passport.js integrado con NestJS, guards
+- Roles y RBAC (Role-Based Access Control)
+- Relaciones ManyToMany en TypeORM
+- Paginacion, filtros, ordenamiento
+
+### Testing
+
+- Tests unitarios con Jest y @nestjs/testing
+
+✅ **Mini-proyecto 6**: Agregar auth al proyecto NestJS de la semana 3 (login/register, proteccion de rutas con JWT)
+
+| Recurso | Enlace |
+|---|---|
+| JWT.io | https://jwt.io |
+| NestJS Authentication | https://docs.nestjs.com/security/authentication |
+
+---
+
+## Semana 7 — Arquitectura Full-Stack e Integracion
 
 ### Integración
 
