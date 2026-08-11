@@ -49,8 +49,8 @@ bootcamp/
 | [2](semana-2/contenido.md) | TypeScript + PostgreSQL + pg (SQL crudo) |
 | [3](semana-3/contenido.md) | NestJS: modulos, TypeORM, Swagger, API REST |
 | [4](semana-4/contenido.md) | React: Vite, componentes, hooks, Router, TailwindCSS |
-| 5 | Angular: componentes, servicios, formularios reactivos |
-| 6 | NestJS: autenticacion JWT, roles, autorizacion |
+| 5 | NestJS: autenticacion (sesiones vs JWT), autorizacion, roles y guards |
+| 6 | Angular: componentes, servicios, formularios reactivos |
 | 7 | Docker, arquitectura full-stack, integracion |
 | 8 | Despliegue, CI/CD, testing E2E |
 | 9–10 | Proyecto final en equipos |

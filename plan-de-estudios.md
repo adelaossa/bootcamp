@@ -165,7 +165,46 @@
 
 ---
 
-## Semana 5 — Frontend Angular
+## Semana 5 — Autenticacion y Autorizacion: sesiones vs JWT
+
+### Conceptos
+
+- Diferencia entre autenticacion (authN) y autorizacion (authZ)
+- HTTP es stateless: por que necesitamos recordar al usuario
+- Transporte del identificador: cookies vs cabecera Authorization
+
+### Sesiones
+
+- Sesiones server-side con `express-session`
+- Cookies `HttpOnly`, `SameSite`, `secure`
+- Guards en NestJS para proteger rutas
+- Riesgo CSRF y su mitigacion (`SameSite`)
+
+### JWT (JSON Web Tokens)
+
+- Estructura del token: header.payload.signature (base64 + HMAC)
+- `@nestjs/jwt`: firmar y verificar
+- Token en cabecera `Authorization: Bearer`
+- Stateless: el servidor no guarda sesiones
+- Almacen en el cliente (`localStorage`) y riesgo XSS
+
+### Comparacion
+
+- Sesiones vs JWT: ventajas, desventajas y casos de uso
+- El problema de la revocacion / logout en JWT
+- Access tokens + refresh tokens (overview)
+
+✅ **Mini-proyecto 5**: Dos apps de ejemplo (sesion vs JWT) con NestJS + React, sin base de datos
+
+| Recurso | Enlace |
+|---|---|
+| OWASP Auth Cheat Sheet | https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html |
+| JWT.io | https://jwt.io |
+| NestJS Authentication | https://docs.nestjs.com/security/authentication |
+
+---
+
+## Semana 6 — Frontend Angular
 
 ### Fundamentos
 
@@ -182,35 +221,12 @@
 - Formularios reactivos: `FormGroup`, `FormControl`, validators
 - Formularios template-driven (overview)
 
-✅ **Mini-proyecto 5**: Misma app de la semana 4, ahora en Angular
+✅ **Mini-proyecto 6**: Misma app de la semana 4, ahora en Angular
 
 | Recurso | Enlace |
 |---|---|
 | Angular Docs | https://angular.dev |
 | Tour of Heroes | https://angular.dev/tutorials/first-app |
-
----
-
-## Semana 6 — Autenticacion y Autorizacion en NestJS
-
-### Autenticacion
-
-- JWT (JSON Web Tokens): estructura, firma, refresh tokens
-- Passport.js integrado con NestJS, guards
-- Roles y RBAC (Role-Based Access Control)
-- Relaciones ManyToMany en TypeORM
-- Paginacion, filtros, ordenamiento
-
-### Testing
-
-- Tests unitarios con Jest y @nestjs/testing
-
-✅ **Mini-proyecto 6**: Agregar auth al proyecto NestJS de la semana 3 (login/register, proteccion de rutas con JWT)
-
-| Recurso | Enlace |
-|---|---|
-| JWT.io | https://jwt.io |
-| NestJS Authentication | https://docs.nestjs.com/security/authentication |
 
 ---
 
